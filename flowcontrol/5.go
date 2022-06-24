@@ -5,6 +5,9 @@ import (
 	"math"
 )
 
+// Go's if statements are like its for loops; the expression need not be surrounded
+// by parentheses () but the braces {} are required
+
 func sqrt(x float64) string {
 	if x < 0 {
 		return sqrt(-x) + "i"
